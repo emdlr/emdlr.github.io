@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-rows: 20% 70% 10%;
+  grid-template-columns: 85% 15%;
+}
+header {
+  font-family: 'Finger Paint', cursive;
+  text-align: right;
+  font-size: 80px;
+  grid-column: 1/ span 3;
+  background: url(banner.png) #fff;
+  background-size: 100% 65%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+}
+td, .aText{
+   font-family: 'Oswald', cursive; 
+   font-size: 40px;
+}
+.icon1{
+   background: url(about.png) #fff;
+   background-size: 30px 30px;
+   background-repeat: no-repeat;
+   background-position: center;
+   padding: 20px;
+}
+.icon2{
+  background: url(hobbies.png) #fff;
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px;
+}
+.icon3{
+  background: url(portfolio.png) #fff;
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px;
+}
+.icon4{
+  background: url(contact.png) #fff;
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px;
+}
+.pFooter {
+   font-family: 'Oswald', cursive; 
+   font-size: 20px;
+   text-align: center;
+}
+.smallText{
+   font-size: 30px;
+   font-style: italic;
+   color: green;
+}
+.pMain {
+  font-family: 'Oswald', cursive; 
+  font-size: 30px;
+  text-align: justify;
+  font-style: italic;
+  color: #000;
+}
+main {
+  background: url(mountain.png) #fff;
+  background-size: auto auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px;
+}
+.aText1 {
+  background: url(whats.png) #fff;
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px;
+}
+.aText2 {
+  background: url(twitter1.gif) #fff;
+  background-size: 60px 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px;
+}
+.aText3 {
+  background: url(email.gif) #fff;
+  background-size: 60px 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px;
+}
+footer {
+  grid-row: 3 / span 1;
+  grid-column: 1 / span 2;
+  background: url(fog.png) #fff;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.socialText {
+  font-family: 'Oswald', cursive; 
+  font-size: 15px;
+  text-align: left;
+  font-style: italic;
+}
